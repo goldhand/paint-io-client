@@ -1,0 +1,19 @@
+/*
+#FCFCFC
+#00AEAA
+#3B25DE
+#2A3348
+#9FA1B9
+#7477BF
+#27C3CE
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font: 1.2rem Montserrat, Helvetica, Arial;
+  background-color: #7477BF;
+  color: #FCFCFC;
+}

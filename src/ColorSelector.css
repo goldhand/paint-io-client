@@ -1,0 +1,27 @@
+:local .className {
+  border-radius: 0.2rem;
+  border-width: 0;
+  width: 3rem;
+  height: 2rem;
+  vertical-align: top;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+:local .className:last-child {
+  margin-right: 0;
+}
+:local .className:hover, :local .className:focus {
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+}
+:local .className:active {
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+:local .className::-webkit-color-swatch-wrapper {
+  padding: 0;
+}
+:local .className::-webkit-color-swatch {
+  border-radius: 0.2rem;
+  border-width: 0;
+}
