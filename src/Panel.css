@@ -1,0 +1,29 @@
+:local .position {
+  position: absolute;
+  padding: 2rem;
+  border: 0 #00AEAA solid;
+  border-radius: 0;
+  background-color: #9FA1B9;
+  min-width: 15rem;
+  max-width: 30rem;
+}
+:local .topRight {
+  top: 0;
+  right: 0;
+  border-bottom-left-radius: 1rem;
+}
+:local .topLeft {
+  top: 0;
+  left: 0;
+  border-bottom-right-radius: 1rem;
+}
+:local .bottomRight {
+  bottom: 0;
+  right: 0;
+  border-top-left-radius: 1rem;
+}
+:local .bottomLeft {
+  bottom: 0;
+  left: 0;
+  border-top-right-radius: 1rem;
+}

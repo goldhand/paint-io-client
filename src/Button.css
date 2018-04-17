@@ -1,0 +1,31 @@
+:local .className {
+  padding: 0 2rem;
+  line-height: 2rem;
+  font-size: 1rem;
+  border-width: 0;
+  border-radius: 0.2rem;
+  transition: box-shadow 0.3s;
+  outline: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: 0.5rem;
+  background-color: #3B25DE;
+  color: #FCFCFC;
+}
+:local .className:last-child {
+  margin-right: 0;
+}
+:local .className:hover, :local .className:focus {
+  box-shadow: 0 0.2rem 0.4rem rgba(0, 0, 0, 0.5);
+}
+:local .className:active {
+  box-shadow: 0 0.1rem 0.1rem rgba(0, 0, 0, 0.5);
+}
+:local .accent {
+  background-color: #27C3CE;
+  color: #FCFCFC;
+}
+:local .inverse {
+  background-color: #FCFCFC;
+  color: #3B25DE;
+}
