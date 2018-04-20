@@ -4,6 +4,7 @@
   "description": "Websocket workshop client app",
   "main": "dist/PaintApp.js",
   "scripts": {
+    "prepare": "npm run build",
     "start": "webpack-dev-server",
     "watch": "webpack --watch",
     "build": "webpack -p",
