@@ -41,7 +41,7 @@ package.NodeJS-paint-io-client = {
             NodeJS-socket_io-client = 1.7.x;
             NodeJS-style-loader = 0.20.x;
             NodeJS-webpack = 3.8.x;
-            NodeJS-webpack-dev-middleware = 1.10.x;
+            NodeJS-webpack-dev-server = 3.1.x;
         };
     };
 

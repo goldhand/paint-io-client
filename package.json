@@ -4,6 +4,7 @@
   "description": "Websocket workshop client app",
   "main": "dist/PaintApp.js",
   "scripts": {
+    "start": "webpack-dev-server",
     "watch": "webpack --watch",
     "build": "webpack -p",
     "release": "npm run build && mkdir -p ./build/lib/commonjs/$npm_package_name/ && cp -r dist ./build/lib/commonjs/$npm_package_name/ && cp package.json ./build/lib/commonjs/$npm_package_name/package.json"
@@ -31,6 +32,7 @@
     "socket.io": "^2.1.0",
     "style-loader": "^0.20.3",
     "webpack": "^4.5.0",
-    "webpack-cli": "^2.0.14"
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
   }
 }
